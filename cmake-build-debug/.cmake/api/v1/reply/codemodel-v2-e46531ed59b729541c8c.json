@@ -1,0 +1,824 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						9,
+						17,
+						29,
+						30,
+						31,
+						32
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "u1",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-u1-Debug-058d12976e1401bc7e67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "u1"
+				},
+				{
+					"build" : "u1/ej_1",
+					"jsonFile" : "directory-u1.ej_1-Debug-42bd3ed00389bf6df569.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "u1/ej_1",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "u1/ej_4",
+					"jsonFile" : "directory-u1.ej_4-Debug-5bf4b2fd8cd41e9530c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "u1/ej_4",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "u1/ej_7",
+					"jsonFile" : "directory-u1.ej_7-Debug-08cbf2f4025920d9b914.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "u1/ej_7",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "u1/ej_8",
+					"jsonFile" : "directory-u1.ej_8-Debug-b9ac7db230da4e054dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "u1/ej_8",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "u1/ej_10",
+					"jsonFile" : "directory-u1.ej_10-Debug-3c3a793603ab2b8d59f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "u1/ej_10",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "u1/ej_12",
+					"jsonFile" : "directory-u1.ej_12-Debug-ac017a838288238f7144.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "u1/ej_12",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "u1/ej_15",
+					"jsonFile" : "directory-u1.ej_15-Debug-98b7bc7d480e2298b7e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "u1/ej_15",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "u2",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-u2-Debug-c6336488392e6a59cb75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "u2"
+				},
+				{
+					"build" : "u2/ej1",
+					"jsonFile" : "directory-u2.ej1-Debug-3c91b1eac06214763a18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "u2/ej1",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "u2/ej2",
+					"jsonFile" : "directory-u2.ej2-Debug-deea0acb6dd9bf0d90e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "u2/ej2",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "u2/ej4",
+					"jsonFile" : "directory-u2.ej4-Debug-42c37baf893208f752e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "u2/ej4",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "u2/ej5",
+					"jsonFile" : "directory-u2.ej5-Debug-1e530fcc8318a16793f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "u2/ej5",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "u2/ej8",
+					"jsonFile" : "directory-u2.ej8-Debug-0cad848bbfc429dbc4ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "u2/ej8",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "u2/ej9",
+					"jsonFile" : "directory-u2.ej9-Debug-ae13cec3e3483ee355d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "u2/ej9",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "u2/ej12",
+					"jsonFile" : "directory-u2.ej12-Debug-77f9a72a568464f90856.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "u2/ej12",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "u3",
+					"childIndexes" : 
+					[
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					],
+					"jsonFile" : "directory-u3-Debug-c2ffde1d13aad6520a2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "u3"
+				},
+				{
+					"build" : "u3/ej0",
+					"jsonFile" : "directory-u3.ej0-Debug-f6dbf7e66ef81dae617d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej0",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "u3/ej00",
+					"jsonFile" : "directory-u3.ej00-Debug-de070374c4b48abc03b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej00",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "u3/ej000",
+					"jsonFile" : "directory-u3.ej000-Debug-df4814cc9b79a82080a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej000",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "u3/ej1",
+					"jsonFile" : "directory-u3.ej1-Debug-457ab7c628e4028c9aa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej1",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "u3/ej2",
+					"jsonFile" : "directory-u3.ej2-Debug-b6102c9bf911890e3419.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej2",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "u3/ej6",
+					"jsonFile" : "directory-u3.ej6-Debug-4b020c237cccc27c943d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej6",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "u3/ej8",
+					"jsonFile" : "directory-u3.ej8-Debug-ad3d5c7d0c4496560918.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej8",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "u3/ej8b",
+					"jsonFile" : "directory-u3.ej8b-Debug-a429c9c016856efe5d86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej8b",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "u3/ej9",
+					"jsonFile" : "directory-u3.ej9-Debug-b03209a3d7611c8b78f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej9",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "u3/ej10",
+					"jsonFile" : "directory-u3.ej10-Debug-d0cc536197b715b52e28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej10",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "u3/ej7",
+					"jsonFile" : "directory-u3.ej7-Debug-0a42f38eee0cd1627d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 0,
+					"source" : "u3/ej7",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "ej_1_1",
+					"jsonFile" : "directory-ej_1_1-Debug-9d9248e91b22e6bb2fb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ej_1_1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ej_template",
+					"jsonFile" : "directory-ej_template-Debug-c6b4b1544ea25c91ffb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ej_template",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ej_template_with_lib",
+					"jsonFile" : "directory-ej_template_with_lib-Debug-63ff36bec21082363684.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ej_template_with_lib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "ej_template_with_lib_files",
+					"jsonFile" : "directory-ej_template_with_lib_files-Debug-386af7c07c9d22904559.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ej_template_with_lib_files",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
+					],
+					"name" : "ucc_2022",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 29,
+					"id" : "ucc_2022_ej_1_1::@2843a59c4ef6a1d362bc",
+					"jsonFile" : "target-ucc_2022_ej_1_1-Debug-94c681ee339bc15e02d1.json",
+					"name" : "ucc_2022_ej_1_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ucc_2022_ej_template::@056b00c876839ef11588",
+					"jsonFile" : "target-ucc_2022_ej_template-Debug-b85223eb87829202be2f.json",
+					"name" : "ucc_2022_ej_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ucc_2022_ej_template_with_lib::@ad9ddf5fd3493e85f64d",
+					"jsonFile" : "target-ucc_2022_ej_template_with_lib-Debug-aabbd96d96f211e975c8.json",
+					"name" : "ucc_2022_ej_template_with_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "ucc_2022_ej_template_with_lib_files::@65e08ceedf475bb27f54",
+					"jsonFile" : "target-ucc_2022_ej_template_with_lib_files-Debug-af846f60c43c9c035995.json",
+					"name" : "ucc_2022_ej_template_with_lib_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ucc_2022_u1_ej_1::@64d182f8b7f1d3e93af4",
+					"jsonFile" : "target-ucc_2022_u1_ej_1-Debug-4be91f19c53c311eaba4.json",
+					"name" : "ucc_2022_u1_ej_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ucc_2022_u1_ej_10::@2073f93a2371b1dbe713",
+					"jsonFile" : "target-ucc_2022_u1_ej_10-Debug-5bc5c66dbbb6b9a1ceb4.json",
+					"name" : "ucc_2022_u1_ej_10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ucc_2022_u1_ej_12::@c87315a089e59b0f25a7",
+					"jsonFile" : "target-ucc_2022_u1_ej_12-Debug-a527b190c9afdb79d010.json",
+					"name" : "ucc_2022_u1_ej_12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ucc_2022_u1_ej_15::@1c8a95f1080602640676",
+					"jsonFile" : "target-ucc_2022_u1_ej_15-Debug-534e0266a5a9fa3afa0c.json",
+					"name" : "ucc_2022_u1_ej_15",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ucc_2022_u1_ej_4::@32809b128590c45bb595",
+					"jsonFile" : "target-ucc_2022_u1_ej_4-Debug-75263b0d971a7632eb75.json",
+					"name" : "ucc_2022_u1_ej_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ucc_2022_u1_ej_7::@9bf3017a898407eb8395",
+					"jsonFile" : "target-ucc_2022_u1_ej_7-Debug-a6538138293d6003c7a0.json",
+					"name" : "ucc_2022_u1_ej_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ucc_2022_u1_ej_8::@7715e5bced79458a89e5",
+					"jsonFile" : "target-ucc_2022_u1_ej_8-Debug-4f3d268f536a4dcf4bc9.json",
+					"name" : "ucc_2022_u1_ej_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ucc_2022_u2_ej_1::@141ab20264379dd2b9ab",
+					"jsonFile" : "target-ucc_2022_u2_ej_1-Debug-7974816e9a288fece139.json",
+					"name" : "ucc_2022_u2_ej_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ucc_2022_u2_ej_12::@eb4f1ffde67d4aed25eb",
+					"jsonFile" : "target-ucc_2022_u2_ej_12-Debug-5c880cacdcfb21bab042.json",
+					"name" : "ucc_2022_u2_ej_12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ucc_2022_u2_ej_2::@a053d7791156ba122451",
+					"jsonFile" : "target-ucc_2022_u2_ej_2-Debug-ecf61c49523f34bedb3f.json",
+					"name" : "ucc_2022_u2_ej_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ucc_2022_u2_ej_4::@9634b1114007ce8e1193",
+					"jsonFile" : "target-ucc_2022_u2_ej_4-Debug-60894ba233c814163175.json",
+					"name" : "ucc_2022_u2_ej_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ucc_2022_u2_ej_5::@cafc4ab333add4a4761c",
+					"jsonFile" : "target-ucc_2022_u2_ej_5-Debug-ff4e883553a013c27c2f.json",
+					"name" : "ucc_2022_u2_ej_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ucc_2022_u2_ej_8::@918e66cc9b8944e4292a",
+					"jsonFile" : "target-ucc_2022_u2_ej_8-Debug-97f2d2112dccbd7935d8.json",
+					"name" : "ucc_2022_u2_ej_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ucc_2022_u2_ej_9::@0e068304d72399d93450",
+					"jsonFile" : "target-ucc_2022_u2_ej_9-Debug-a77c451f7dfa6c7ff3b7.json",
+					"name" : "ucc_2022_u2_ej_9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ucc_2022_u3_ej_0::@92522d7ab9f38fb457f6",
+					"jsonFile" : "target-ucc_2022_u3_ej_0-Debug-e59532ed9d70d1eb7b35.json",
+					"name" : "ucc_2022_u3_ej_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ucc_2022_u3_ej_00::@1eaf87fd74fce5346eaf",
+					"jsonFile" : "target-ucc_2022_u3_ej_00-Debug-2919ef1c7d9f4c048165.json",
+					"name" : "ucc_2022_u3_ej_00",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "ucc_2022_u3_ej_000::@3a4a28867b7eb7bc1a33",
+					"jsonFile" : "target-ucc_2022_u3_ej_000-Debug-b273e65f1dbe083f355e.json",
+					"name" : "ucc_2022_u3_ej_000",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ucc_2022_u3_ej_1::@650d91ee9a197128bd84",
+					"jsonFile" : "target-ucc_2022_u3_ej_1-Debug-4a8e87683598ccab760e.json",
+					"name" : "ucc_2022_u3_ej_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ucc_2022_u3_ej_10::@e09cc3ca10f24c5ed347",
+					"jsonFile" : "target-ucc_2022_u3_ej_10-Debug-2e3bd47ba47898d5eef5.json",
+					"name" : "ucc_2022_u3_ej_10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ucc_2022_u3_ej_2::@2b75ad1852c82c94c65b",
+					"jsonFile" : "target-ucc_2022_u3_ej_2-Debug-485e4ee01be64c071ab9.json",
+					"name" : "ucc_2022_u3_ej_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ucc_2022_u3_ej_6::@93bde3ec3cd2ca4c301f",
+					"jsonFile" : "target-ucc_2022_u3_ej_6-Debug-2a08cca7917325702c74.json",
+					"name" : "ucc_2022_u3_ej_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ucc_2022_u3_ej_7::@f288ec6e694de92468e4",
+					"jsonFile" : "target-ucc_2022_u3_ej_7-Debug-255f1f0d838862c1ca58.json",
+					"name" : "ucc_2022_u3_ej_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ucc_2022_u3_ej_8::@e8693e58e8ae58c96ef3",
+					"jsonFile" : "target-ucc_2022_u3_ej_8-Debug-6c03ee36d117ab2c21a5.json",
+					"name" : "ucc_2022_u3_ej_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ucc_2022_u3_ej_8b::@b29e7ebc36c0a84bb017",
+					"jsonFile" : "target-ucc_2022_u3_ej_8b-Debug-9a92a6f3632d0fce99db.json",
+					"name" : "ucc_2022_u3_ej_8b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ucc_2022_u3_ej_9::@c4d16b0fb7cf3e761837",
+					"jsonFile" : "target-ucc_2022_u3_ej_9-Debug-d988856494bbb05dfbe4.json",
+					"name" : "ucc_2022_u3_ej_9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/win10/Desktop/Programacion-2/cmake-build-debug",
+		"source" : "C:/Users/win10/Desktop/Programacion-2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
