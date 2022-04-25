@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/win10/Desktop/practico-2022/ej_template/lib.cpp" "ej_template/CMakeFiles/ucc_2022_ej_template.dir/lib.cpp.obj" "gcc" "ej_template/CMakeFiles/ucc_2022_ej_template.dir/lib.cpp.obj.d"
-  "C:/Users/win10/Desktop/practico-2022/ej_template/main.cpp" "ej_template/CMakeFiles/ucc_2022_ej_template.dir/main.cpp.obj" "gcc" "ej_template/CMakeFiles/ucc_2022_ej_template.dir/main.cpp.obj.d"
+  "C:/Users/mbarb/Escritorio/Programacion-2/ej_template/lib.cpp" "ej_template/CMakeFiles/ucc_2022_ej_template.dir/lib.cpp.obj" "gcc" "ej_template/CMakeFiles/ucc_2022_ej_template.dir/lib.cpp.obj.d"
+  "C:/Users/mbarb/Escritorio/Programacion-2/ej_template/main.cpp" "ej_template/CMakeFiles/ucc_2022_ej_template.dir/main.cpp.obj" "gcc" "ej_template/CMakeFiles/ucc_2022_ej_template.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

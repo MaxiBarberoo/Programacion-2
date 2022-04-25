@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/win10/Desktop/Programacion-2/u1
+# Install script for directory: C:/Users/mbarb/Escritorio/Programacion-2/u1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,41 +34,41 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/win10/Desktop/Programacion-2/cmake-build-debug/u1/ej_1/cmake_install.cmake")
+  include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u1/ej_1/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/win10/Desktop/Programacion-2/cmake-build-debug/u1/ej_4/cmake_install.cmake")
+  include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u1/ej_4/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/win10/Desktop/Programacion-2/cmake-build-debug/u1/ej_7/cmake_install.cmake")
+  include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u1/ej_7/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/win10/Desktop/Programacion-2/cmake-build-debug/u1/ej_8/cmake_install.cmake")
+  include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u1/ej_8/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/win10/Desktop/Programacion-2/cmake-build-debug/u1/ej_10/cmake_install.cmake")
+  include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u1/ej_10/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/win10/Desktop/Programacion-2/cmake-build-debug/u1/ej_12/cmake_install.cmake")
+  include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u1/ej_12/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/win10/Desktop/Programacion-2/cmake-build-debug/u1/ej_15/cmake_install.cmake")
+  include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u1/ej_15/cmake_install.cmake")
 endif()
 

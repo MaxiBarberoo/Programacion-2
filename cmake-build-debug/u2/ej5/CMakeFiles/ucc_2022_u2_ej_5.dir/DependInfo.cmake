@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/win10/Desktop/practico-2022/u2/ej5/main.cpp" "u2/ej5/CMakeFiles/ucc_2022_u2_ej_5.dir/main.cpp.obj" "gcc" "u2/ej5/CMakeFiles/ucc_2022_u2_ej_5.dir/main.cpp.obj.d"
+  "C:/Users/mbarb/Escritorio/Programacion-2/u2/ej5/main.cpp" "u2/ej5/CMakeFiles/ucc_2022_u2_ej_5.dir/main.cpp.obj" "gcc" "u2/ej5/CMakeFiles/ucc_2022_u2_ej_5.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

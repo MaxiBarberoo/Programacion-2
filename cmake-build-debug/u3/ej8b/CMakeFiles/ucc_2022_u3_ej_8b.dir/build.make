@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\win10\Desktop\practico-2022
+CMAKE_SOURCE_DIR = C:\Users\mbarb\Escritorio\Programacion-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\win10\Desktop\practico-2022\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/depend.make
@@ -71,30 +71,30 @@ include u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/flags.make
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.obj: u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/flags.make
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.obj: ../u3/ej8b/main.cpp
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.obj: u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\practico-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.obj"
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.obj -MF CMakeFiles\ucc_2022_u3_ej_8b.dir\main.cpp.obj.d -o CMakeFiles\ucc_2022_u3_ej_8b.dir\main.cpp.obj -c C:\Users\win10\Desktop\practico-2022\u3\ej8b\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.obj"
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b && "C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.obj -MF CMakeFiles\ucc_2022_u3_ej_8b.dir\main.cpp.obj.d -o CMakeFiles\ucc_2022_u3_ej_8b.dir\main.cpp.obj -c C:\Users\mbarb\Escritorio\Programacion-2\u3\ej8b\main.cpp
 
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.i"
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\practico-2022\u3\ej8b\main.cpp > CMakeFiles\ucc_2022_u3_ej_8b.dir\main.cpp.i
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b && "C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Programacion-2\u3\ej8b\main.cpp > CMakeFiles\ucc_2022_u3_ej_8b.dir\main.cpp.i
 
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ucc_2022_u3_ej_8b.dir/main.cpp.s"
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\practico-2022\u3\ej8b\main.cpp -o CMakeFiles\ucc_2022_u3_ej_8b.dir\main.cpp.s
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b && "C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Programacion-2\u3\ej8b\main.cpp -o CMakeFiles\ucc_2022_u3_ej_8b.dir\main.cpp.s
 
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.obj: u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/flags.make
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.obj: ../u3/ej8b/Persona.cpp
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.obj: u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\win10\Desktop\practico-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.obj"
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.obj -MF CMakeFiles\ucc_2022_u3_ej_8b.dir\Persona.cpp.obj.d -o CMakeFiles\ucc_2022_u3_ej_8b.dir\Persona.cpp.obj -c C:\Users\win10\Desktop\practico-2022\u3\ej8b\Persona.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.obj"
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b && "C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.obj -MF CMakeFiles\ucc_2022_u3_ej_8b.dir\Persona.cpp.obj.d -o CMakeFiles\ucc_2022_u3_ej_8b.dir\Persona.cpp.obj -c C:\Users\mbarb\Escritorio\Programacion-2\u3\ej8b\Persona.cpp
 
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.i"
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\win10\Desktop\practico-2022\u3\ej8b\Persona.cpp > CMakeFiles\ucc_2022_u3_ej_8b.dir\Persona.cpp.i
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b && "C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mbarb\Escritorio\Programacion-2\u3\ej8b\Persona.cpp > CMakeFiles\ucc_2022_u3_ej_8b.dir\Persona.cpp.i
 
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ucc_2022_u3_ej_8b.dir/Persona.cpp.s"
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b && C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\win10\Desktop\practico-2022\u3\ej8b\Persona.cpp -o CMakeFiles\ucc_2022_u3_ej_8b.dir\Persona.cpp.s
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b && "C:\PROGRA~1\JetBrains\CLion 2021.3.3\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mbarb\Escritorio\Programacion-2\u3\ej8b\Persona.cpp -o CMakeFiles\ucc_2022_u3_ej_8b.dir\Persona.cpp.s
 
 # Object files for target ucc_2022_u3_ej_8b
 ucc_2022_u3_ej_8b_OBJECTS = \
@@ -110,18 +110,18 @@ u3/ej8b/ucc_2022_u3_ej_8b.exe: u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/build.ma
 u3/ej8b/ucc_2022_u3_ej_8b.exe: u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/linklibs.rsp
 u3/ej8b/ucc_2022_u3_ej_8b.exe: u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/objects1.rsp
 u3/ej8b/ucc_2022_u3_ej_8b.exe: u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\win10\Desktop\practico-2022\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ucc_2022_u3_ej_8b.exe"
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ucc_2022_u3_ej_8b.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ucc_2022_u3_ej_8b.exe"
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ucc_2022_u3_ej_8b.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/build: u3/ej8b/ucc_2022_u3_ej_8b.exe
 .PHONY : u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/build
 
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/clean:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b && $(CMAKE_COMMAND) -P CMakeFiles\ucc_2022_u3_ej_8b.dir\cmake_clean.cmake
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b && $(CMAKE_COMMAND) -P CMakeFiles\ucc_2022_u3_ej_8b.dir\cmake_clean.cmake
 .PHONY : u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/clean
 
 u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\win10\Desktop\practico-2022 C:\Users\win10\Desktop\practico-2022\u3\ej8b C:\Users\win10\Desktop\practico-2022\cmake-build-debug C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej8b\CMakeFiles\ucc_2022_u3_ej_8b.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\mbarb\Escritorio\Programacion-2 C:\Users\mbarb\Escritorio\Programacion-2\u3\ej8b C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej8b\CMakeFiles\ucc_2022_u3_ej_8b.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : u3/ej8b/CMakeFiles/ucc_2022_u3_ej_8b.dir/depend
 

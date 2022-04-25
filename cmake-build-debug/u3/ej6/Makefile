@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\win10\Desktop\practico-2022
+CMAKE_SOURCE_DIR = C:\Users\mbarb\Escritorio\Programacion-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\win10\Desktop\practico-2022\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\win10\Desktop\practico-2022\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -77,7 +77,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -86,14 +86,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\win10\Desktop\practico-2022\cmake-build-debug\CMakeFiles C:\Users\win10\Desktop\practico-2022\cmake-build-debug\u3\ej6\\CMakeFiles\progress.marks
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\win10\Desktop\practico-2022\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\CMakeFiles C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\u3\ej6\\CMakeFiles\progress.marks
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/clean
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/preinstall
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/preinstall
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/rule:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/rule
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/rule
 .PHONY : u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ ucc_2022_u3_ej_6: u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/rule
 
 # fast build rule for target.
 ucc_2022_u3_ej_6/fast:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/build
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/build
 .PHONY : ucc_2022_u3_ej_6/fast
 
 Password.obj: Password.cpp.obj
@@ -134,7 +134,7 @@ Password.obj: Password.cpp.obj
 
 # target to build an object file
 Password.cpp.obj:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password.cpp.obj
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password.cpp.obj
 .PHONY : Password.cpp.obj
 
 Password.i: Password.cpp.i
@@ -142,7 +142,7 @@ Password.i: Password.cpp.i
 
 # target to preprocess a source file
 Password.cpp.i:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password.cpp.i
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password.cpp.i
 .PHONY : Password.cpp.i
 
 Password.s: Password.cpp.s
@@ -150,7 +150,7 @@ Password.s: Password.cpp.s
 
 # target to generate assembly for a file
 Password.cpp.s:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password.cpp.s
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password.cpp.s
 .PHONY : Password.cpp.s
 
 Password2.obj: Password2.cpp.obj
@@ -158,7 +158,7 @@ Password2.obj: Password2.cpp.obj
 
 # target to build an object file
 Password2.cpp.obj:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password2.cpp.obj
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password2.cpp.obj
 .PHONY : Password2.cpp.obj
 
 Password2.i: Password2.cpp.i
@@ -166,7 +166,7 @@ Password2.i: Password2.cpp.i
 
 # target to preprocess a source file
 Password2.cpp.i:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password2.cpp.i
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password2.cpp.i
 .PHONY : Password2.cpp.i
 
 Password2.s: Password2.cpp.s
@@ -174,7 +174,7 @@ Password2.s: Password2.cpp.s
 
 # target to generate assembly for a file
 Password2.cpp.s:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password2.cpp.s
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/Password2.cpp.s
 .PHONY : Password2.cpp.s
 
 main.obj: main.cpp.obj
@@ -182,7 +182,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/main.cpp.obj
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -190,7 +190,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/main.cpp.i
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -198,7 +198,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/main.cpp.s
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f u3\ej6\CMakeFiles\ucc_2022_u3_ej_6.dir\build.make u3/ej6/CMakeFiles/ucc_2022_u3_ej_6.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -230,6 +230,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

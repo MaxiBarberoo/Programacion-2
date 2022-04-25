@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/win10/Desktop/practico-2022/ej_template_with_lib_files/lib/lib_1.cpp" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/lib/lib_1.cpp.obj" "gcc" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/lib/lib_1.cpp.obj.d"
-  "C:/Users/win10/Desktop/practico-2022/ej_template_with_lib_files/lib/lib_2.cpp" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/lib/lib_2.cpp.obj" "gcc" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/lib/lib_2.cpp.obj.d"
-  "C:/Users/win10/Desktop/practico-2022/ej_template_with_lib_files/main.cpp" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/main.cpp.obj" "gcc" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/main.cpp.obj.d"
+  "C:/Users/mbarb/Escritorio/Programacion-2/ej_template_with_lib_files/lib/lib_1.cpp" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/lib/lib_1.cpp.obj" "gcc" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/lib/lib_1.cpp.obj.d"
+  "C:/Users/mbarb/Escritorio/Programacion-2/ej_template_with_lib_files/lib/lib_2.cpp" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/lib/lib_2.cpp.obj" "gcc" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/lib/lib_2.cpp.obj.d"
+  "C:/Users/mbarb/Escritorio/Programacion-2/ej_template_with_lib_files/main.cpp" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/main.cpp.obj" "gcc" "ej_template_with_lib_files/CMakeFiles/ucc_2022_ej_template_with_lib_files.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

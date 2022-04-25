@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\win10\Desktop\practico-2022
+CMAKE_SOURCE_DIR = C:\Users\mbarb\Escritorio\Programacion-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\win10\Desktop\practico-2022\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\win10\Desktop\practico-2022\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -77,7 +77,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -86,14 +86,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\win10\Desktop\practico-2022\cmake-build-debug\CMakeFiles C:\Users\win10\Desktop\practico-2022\cmake-build-debug\ej_1_1\\CMakeFiles\progress.marks
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\win10\Desktop\practico-2022\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\CMakeFiles C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\ej_1_1\\CMakeFiles\progress.marks
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/clean
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/preinstall
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/preinstall
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/rule:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/rule
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/rule
 .PHONY : ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/rule
 
 # Convenience name for target.
@@ -126,15 +126,63 @@ ucc_2022_ej_1_1: ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/rule
 
 # fast build rule for target.
 ucc_2022_ej_1_1/fast:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/build
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/build
 .PHONY : ucc_2022_ej_1_1/fast
+
+__/EjerciciosRepasoParcial1/Ej1/Articulo.obj: __/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.obj
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/Articulo.obj
+
+# target to build an object file
+__/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.obj:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.obj
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.obj
+
+__/EjerciciosRepasoParcial1/Ej1/Articulo.i: __/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.i
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/Articulo.i
+
+# target to preprocess a source file
+__/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.i:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.i
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.i
+
+__/EjerciciosRepasoParcial1/Ej1/Articulo.s: __/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.s
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/Articulo.s
+
+# target to generate assembly for a file
+__/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.s:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.s
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/Articulo.cpp.s
+
+__/EjerciciosRepasoParcial1/Ej1/main.obj: __/EjerciciosRepasoParcial1/Ej1/main.cpp.obj
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/main.obj
+
+# target to build an object file
+__/EjerciciosRepasoParcial1/Ej1/main.cpp.obj:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/EjerciciosRepasoParcial1/Ej1/main.cpp.obj
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/main.cpp.obj
+
+__/EjerciciosRepasoParcial1/Ej1/main.i: __/EjerciciosRepasoParcial1/Ej1/main.cpp.i
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/main.i
+
+# target to preprocess a source file
+__/EjerciciosRepasoParcial1/Ej1/main.cpp.i:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/EjerciciosRepasoParcial1/Ej1/main.cpp.i
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/main.cpp.i
+
+__/EjerciciosRepasoParcial1/Ej1/main.s: __/EjerciciosRepasoParcial1/Ej1/main.cpp.s
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/main.s
+
+# target to generate assembly for a file
+__/EjerciciosRepasoParcial1/Ej1/main.cpp.s:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/EjerciciosRepasoParcial1/Ej1/main.cpp.s
+.PHONY : __/EjerciciosRepasoParcial1/Ej1/main.cpp.s
 
 lib.obj: lib.cpp.obj
 .PHONY : lib.obj
 
 # target to build an object file
 lib.cpp.obj:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/lib.cpp.obj
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/lib.cpp.obj
 .PHONY : lib.cpp.obj
 
 lib.i: lib.cpp.i
@@ -142,7 +190,7 @@ lib.i: lib.cpp.i
 
 # target to preprocess a source file
 lib.cpp.i:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/lib.cpp.i
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/lib.cpp.i
 .PHONY : lib.cpp.i
 
 lib.s: lib.cpp.s
@@ -150,7 +198,7 @@ lib.s: lib.cpp.s
 
 # target to generate assembly for a file
 lib.cpp.s:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/lib.cpp.s
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/lib.cpp.s
 .PHONY : lib.cpp.s
 
 main.obj: main.cpp.obj
@@ -158,7 +206,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/main.cpp.obj
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -166,7 +214,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/main.cpp.i
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/main.cpp.s
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -186,6 +234,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ucc_2022_ej_1_1
+	@echo ... __/EjerciciosRepasoParcial1/Ej1/Articulo.obj
+	@echo ... __/EjerciciosRepasoParcial1/Ej1/Articulo.i
+	@echo ... __/EjerciciosRepasoParcial1/Ej1/Articulo.s
+	@echo ... __/EjerciciosRepasoParcial1/Ej1/main.obj
+	@echo ... __/EjerciciosRepasoParcial1/Ej1/main.i
+	@echo ... __/EjerciciosRepasoParcial1/Ej1/main.s
 	@echo ... lib.obj
 	@echo ... lib.i
 	@echo ... lib.s
@@ -203,6 +257,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\win10\Desktop\practico-2022\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
