@@ -3,3 +3,5 @@
 //
 
 #include "Reloj.h"
+#include "Temperatura.h"
+#include "Hora.h"

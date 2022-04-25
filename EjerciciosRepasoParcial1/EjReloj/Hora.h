@@ -11,7 +11,9 @@ public:
     Hora();
     Hora(unsigned int t_horas, unsigned int t_minutos, unsigned int t_segundos);
 
-
+    unsigned int get_horas();
+    unsigned int get_minutos();
+    unsigned int get_segundos();
 
 private:
     unsigned int m_horas, m_minutos, m_segundos;
