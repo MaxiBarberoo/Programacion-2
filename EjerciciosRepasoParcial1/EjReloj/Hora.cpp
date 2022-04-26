@@ -11,3 +11,16 @@ Hora::Hora(unsigned int t_horas, unsigned int t_minutos, unsigned int t_segundos
     assert(t_minutos >= 0 && t_minutos <= 60);
     assert(t_segundos >= 0 && t_segundos <= 60);
 }
+
+unsigned int Hora::get_horas() {
+    return m_horas;
+}
+
+unsigned int Hora::get_minutos() {
+    return m_minutos;
+}
+
+unsigned int Hora::get_segundos() {
+    return m_segundos;
+}
+

@@ -25,7 +25,7 @@ private:
     Hora m_hora_actual;
     Hora hora_de_alarma;
     unsigned int duracion_alarma_enSegundos = 20;
-    Temperatura m_temperatura;
+    Temperatura m_temperatura = 25;
 };
 
 

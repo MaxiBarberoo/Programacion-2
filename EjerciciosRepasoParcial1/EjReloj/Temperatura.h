@@ -8,7 +8,7 @@
 
 class Temperatura {
 public:
-    Temperatura(float m_temperaturaEnCelsius);
+    Temperatura(float t_temperaturaEnCelsius);
 
     float get_celsius();
     float get_fahrenheit();
