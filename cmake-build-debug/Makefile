@@ -441,6 +441,32 @@ ucc_2022_u3_ej_7/fast:
 .PHONY : ucc_2022_u3_ej_7/fast
 
 #=============================================================================
+# Target rules for targets named ucc_2022_Parcial_1_Ejercicio_1
+
+# Build rule for target.
+ucc_2022_Parcial_1_Ejercicio_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ucc_2022_Parcial_1_Ejercicio_1
+.PHONY : ucc_2022_Parcial_1_Ejercicio_1
+
+# fast build rule for target.
+ucc_2022_Parcial_1_Ejercicio_1/fast:
+	$(MAKE) $(MAKESILENT) -f Parcial1\Ejercicio1\CMakeFiles\ucc_2022_Parcial_1_Ejercicio_1.dir\build.make Parcial1/Ejercicio1/CMakeFiles/ucc_2022_Parcial_1_Ejercicio_1.dir/build
+.PHONY : ucc_2022_Parcial_1_Ejercicio_1/fast
+
+#=============================================================================
+# Target rules for targets named ucc_2022_Parcial_1_Ejercicio_2
+
+# Build rule for target.
+ucc_2022_Parcial_1_Ejercicio_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ucc_2022_Parcial_1_Ejercicio_2
+.PHONY : ucc_2022_Parcial_1_Ejercicio_2
+
+# fast build rule for target.
+ucc_2022_Parcial_1_Ejercicio_2/fast:
+	$(MAKE) $(MAKESILENT) -f Parcial1\Ejercicio2\CMakeFiles\ucc_2022_Parcial_1_Ejercicio_2.dir\build.make Parcial1/Ejercicio2/CMakeFiles/ucc_2022_Parcial_1_Ejercicio_2.dir/build
+.PHONY : ucc_2022_Parcial_1_Ejercicio_2/fast
+
+#=============================================================================
 # Target rules for targets named ucc_2022_EjerciciosRepasoParcial1_Ej_1
 
 # Build rule for target.
@@ -542,6 +568,8 @@ help:
 	@echo ... ucc_2022_EjerciciosRepasoParcial1_Ej_1
 	@echo ... ucc_2022_EjerciciosRepasoParcial1_Ej_4
 	@echo ... ucc_2022_EjerciciosRepasoParcial1_Ej_Reloj
+	@echo ... ucc_2022_Parcial_1_Ejercicio_1
+	@echo ... ucc_2022_Parcial_1_Ejercicio_2
 	@echo ... ucc_2022_ej_1_1
 	@echo ... ucc_2022_ej_template
 	@echo ... ucc_2022_ej_template_with_lib

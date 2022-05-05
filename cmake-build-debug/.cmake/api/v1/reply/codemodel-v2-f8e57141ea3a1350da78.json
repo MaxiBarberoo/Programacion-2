@@ -12,10 +12,11 @@
 						9,
 						17,
 						29,
-						33,
-						34,
-						35,
-						36
+						32,
+						36,
+						37,
+						38,
+						39
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -58,7 +59,7 @@
 					"source" : "u1/ej_1",
 					"targetIndexes" : 
 					[
-						7
+						9
 					]
 				},
 				{
@@ -73,7 +74,7 @@
 					"source" : "u1/ej_4",
 					"targetIndexes" : 
 					[
-						11
+						13
 					]
 				},
 				{
@@ -88,7 +89,7 @@
 					"source" : "u1/ej_7",
 					"targetIndexes" : 
 					[
-						12
+						14
 					]
 				},
 				{
@@ -103,7 +104,7 @@
 					"source" : "u1/ej_8",
 					"targetIndexes" : 
 					[
-						13
+						15
 					]
 				},
 				{
@@ -118,7 +119,7 @@
 					"source" : "u1/ej_10",
 					"targetIndexes" : 
 					[
-						8
+						10
 					]
 				},
 				{
@@ -133,7 +134,7 @@
 					"source" : "u1/ej_12",
 					"targetIndexes" : 
 					[
-						9
+						11
 					]
 				},
 				{
@@ -148,7 +149,7 @@
 					"source" : "u1/ej_15",
 					"targetIndexes" : 
 					[
-						10
+						12
 					]
 				},
 				{
@@ -184,7 +185,7 @@
 					"source" : "u2/ej1",
 					"targetIndexes" : 
 					[
-						14
+						16
 					]
 				},
 				{
@@ -199,7 +200,7 @@
 					"source" : "u2/ej2",
 					"targetIndexes" : 
 					[
-						16
+						18
 					]
 				},
 				{
@@ -214,7 +215,7 @@
 					"source" : "u2/ej4",
 					"targetIndexes" : 
 					[
-						17
+						19
 					]
 				},
 				{
@@ -229,7 +230,7 @@
 					"source" : "u2/ej5",
 					"targetIndexes" : 
 					[
-						18
+						20
 					]
 				},
 				{
@@ -244,7 +245,7 @@
 					"source" : "u2/ej8",
 					"targetIndexes" : 
 					[
-						19
+						21
 					]
 				},
 				{
@@ -259,7 +260,7 @@
 					"source" : "u2/ej9",
 					"targetIndexes" : 
 					[
-						20
+						22
 					]
 				},
 				{
@@ -274,7 +275,7 @@
 					"source" : "u2/ej12",
 					"targetIndexes" : 
 					[
-						15
+						17
 					]
 				},
 				{
@@ -314,7 +315,7 @@
 					"source" : "u3/ej0",
 					"targetIndexes" : 
 					[
-						21
+						23
 					]
 				},
 				{
@@ -329,7 +330,7 @@
 					"source" : "u3/ej00",
 					"targetIndexes" : 
 					[
-						22
+						24
 					]
 				},
 				{
@@ -344,7 +345,7 @@
 					"source" : "u3/ej000",
 					"targetIndexes" : 
 					[
-						23
+						25
 					]
 				},
 				{
@@ -359,7 +360,7 @@
 					"source" : "u3/ej1",
 					"targetIndexes" : 
 					[
-						24
+						26
 					]
 				},
 				{
@@ -374,7 +375,7 @@
 					"source" : "u3/ej2",
 					"targetIndexes" : 
 					[
-						26
+						28
 					]
 				},
 				{
@@ -389,7 +390,7 @@
 					"source" : "u3/ej6",
 					"targetIndexes" : 
 					[
-						27
+						29
 					]
 				},
 				{
@@ -404,7 +405,7 @@
 					"source" : "u3/ej8",
 					"targetIndexes" : 
 					[
-						29
+						31
 					]
 				},
 				{
@@ -419,7 +420,7 @@
 					"source" : "u3/ej8b",
 					"targetIndexes" : 
 					[
-						30
+						32
 					]
 				},
 				{
@@ -434,7 +435,7 @@
 					"source" : "u3/ej9",
 					"targetIndexes" : 
 					[
-						31
+						33
 					]
 				},
 				{
@@ -449,7 +450,7 @@
 					"source" : "u3/ej10",
 					"targetIndexes" : 
 					[
-						25
+						27
 					]
 				},
 				{
@@ -464,16 +465,62 @@
 					"source" : "u3/ej7",
 					"targetIndexes" : 
 					[
-						28
+						30
+					]
+				},
+				{
+					"build" : "Parcial1",
+					"childIndexes" : 
+					[
+						30,
+						31
+					],
+					"jsonFile" : "directory-Parcial1-Debug-b55391e03b22cdba6118.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Parcial1"
+				},
+				{
+					"build" : "Parcial1/Ejercicio1",
+					"jsonFile" : "directory-Parcial1.Ejercicio1-Debug-8d75f0a0551817d71bd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "Parcial1/Ejercicio1",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Parcial1/Ejercicio2",
+					"jsonFile" : "directory-Parcial1.Ejercicio2-Debug-b70de01b594074a176c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "Parcial1/Ejercicio2",
+					"targetIndexes" : 
+					[
+						4
 					]
 				},
 				{
 					"build" : "EjerciciosRepasoParcial1",
 					"childIndexes" : 
 					[
-						30,
-						31,
-						32
+						33,
+						34,
+						35
 					],
 					"jsonFile" : "directory-EjerciciosRepasoParcial1-Debug-4ed876aa2740d0aec45c.json",
 					"minimumCMakeVersion" : 
@@ -491,7 +538,7 @@
 					{
 						"string" : "3.17"
 					},
-					"parentIndex" : 29,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "EjerciciosRepasoParcial1/Ej1",
 					"targetIndexes" : 
@@ -506,7 +553,7 @@
 					{
 						"string" : "3.17"
 					},
-					"parentIndex" : 29,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "EjerciciosRepasoParcial1/Ej4",
 					"targetIndexes" : 
@@ -521,7 +568,7 @@
 					{
 						"string" : "3.17"
 					},
-					"parentIndex" : 29,
+					"parentIndex" : 32,
 					"projectIndex" : 0,
 					"source" : "EjerciciosRepasoParcial1/EjReloj",
 					"targetIndexes" : 
@@ -541,7 +588,7 @@
 					"source" : "ej_1_1",
 					"targetIndexes" : 
 					[
-						3
+						5
 					]
 				},
 				{
@@ -556,7 +603,7 @@
 					"source" : "ej_template",
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
@@ -571,7 +618,7 @@
 					"source" : "ej_template_with_lib",
 					"targetIndexes" : 
 					[
-						5
+						7
 					]
 				},
 				{
@@ -586,7 +633,7 @@
 					"source" : "ej_template_with_lib_files",
 					"targetIndexes" : 
 					[
-						6
+						8
 					]
 				}
 			],
@@ -632,7 +679,10 @@
 						33,
 						34,
 						35,
-						36
+						36,
+						37,
+						38,
+						39
 					],
 					"name" : "ucc_2022",
 					"targetIndexes" : 
@@ -668,56 +718,72 @@
 						28,
 						29,
 						30,
-						31
+						31,
+						32,
+						33
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 30,
+					"directoryIndex" : 33,
 					"id" : "ucc_2022_EjerciciosRepasoParcial1_Ej_1::@65005f3265c06f300a89",
 					"jsonFile" : "target-ucc_2022_EjerciciosRepasoParcial1_Ej_1-Debug-358272962d48744fcc24.json",
 					"name" : "ucc_2022_EjerciciosRepasoParcial1_Ej_1",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 31,
+					"directoryIndex" : 34,
 					"id" : "ucc_2022_EjerciciosRepasoParcial1_Ej_4::@f4f2e0fb2f9bb9f1aa1e",
 					"jsonFile" : "target-ucc_2022_EjerciciosRepasoParcial1_Ej_4-Debug-77dbe4a4230b3391c190.json",
 					"name" : "ucc_2022_EjerciciosRepasoParcial1_Ej_4",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 32,
+					"directoryIndex" : 35,
 					"id" : "ucc_2022_EjerciciosRepasoParcial1_Ej_Reloj::@e8199d990d62879a9428",
 					"jsonFile" : "target-ucc_2022_EjerciciosRepasoParcial1_Ej_Reloj-Debug-efab88d6597a9f2f2b8e.json",
 					"name" : "ucc_2022_EjerciciosRepasoParcial1_Ej_Reloj",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 33,
+					"directoryIndex" : 30,
+					"id" : "ucc_2022_Parcial_1_Ejercicio_1::@d8e59e23ecbceaa548fd",
+					"jsonFile" : "target-ucc_2022_Parcial_1_Ejercicio_1-Debug-232cb2280ef6046dd4bc.json",
+					"name" : "ucc_2022_Parcial_1_Ejercicio_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ucc_2022_Parcial_1_Ejercicio_2::@c39b5bf1586b07b4a0fa",
+					"jsonFile" : "target-ucc_2022_Parcial_1_Ejercicio_2-Debug-1008294edfd34ebb6ebf.json",
+					"name" : "ucc_2022_Parcial_1_Ejercicio_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
 					"id" : "ucc_2022_ej_1_1::@2843a59c4ef6a1d362bc",
-					"jsonFile" : "target-ucc_2022_ej_1_1-Debug-b46984a038c91eb49e7f.json",
+					"jsonFile" : "target-ucc_2022_ej_1_1-Debug-e999addb8d033086bbd4.json",
 					"name" : "ucc_2022_ej_1_1",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 34,
+					"directoryIndex" : 37,
 					"id" : "ucc_2022_ej_template::@056b00c876839ef11588",
 					"jsonFile" : "target-ucc_2022_ej_template-Debug-b85223eb87829202be2f.json",
 					"name" : "ucc_2022_ej_template",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 35,
+					"directoryIndex" : 38,
 					"id" : "ucc_2022_ej_template_with_lib::@ad9ddf5fd3493e85f64d",
 					"jsonFile" : "target-ucc_2022_ej_template_with_lib-Debug-aabbd96d96f211e975c8.json",
 					"name" : "ucc_2022_ej_template_with_lib",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 36,
+					"directoryIndex" : 39,
 					"id" : "ucc_2022_ej_template_with_lib_files::@65e08ceedf475bb27f54",
 					"jsonFile" : "target-ucc_2022_ej_template_with_lib_files-Debug-af846f60c43c9c035995.json",
 					"name" : "ucc_2022_ej_template_with_lib_files",

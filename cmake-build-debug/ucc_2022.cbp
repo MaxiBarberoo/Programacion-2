@@ -5,7 +5,7 @@
 		<Option title="ucc_2022"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\u1\;CMake Files\u1\ej_1\;CMake Files\u1\ej_4\;CMake Files\u1\ej_7\;CMake Files\u1\ej_8\;CMake Files\u1\ej_10\;CMake Files\u1\ej_12\;CMake Files\u1\ej_15\;CMake Files\u2\;CMake Files\u2\ej1\;CMake Files\u2\ej2\;CMake Files\u2\ej4\;CMake Files\u2\ej5\;CMake Files\u2\ej8\;CMake Files\u2\ej9\;CMake Files\u2\ej12\;CMake Files\u3\;CMake Files\u3\ej0\;CMake Files\u3\ej00\;CMake Files\u3\ej000\;CMake Files\u3\ej1\;CMake Files\u3\ej2\;CMake Files\u3\ej6\;CMake Files\u3\ej8\;CMake Files\u3\ej8b\;CMake Files\u3\ej9\;CMake Files\u3\ej10\;CMake Files\u3\ej7\;CMake Files\EjerciciosRepasoParcial1\;CMake Files\EjerciciosRepasoParcial1\Ej1\;CMake Files\EjerciciosRepasoParcial1\Ej4\;CMake Files\EjerciciosRepasoParcial1\EjReloj\;CMake Files\ej_1_1\;CMake Files\ej_template\;CMake Files\ej_template_with_lib\;CMake Files\ej_template_with_lib_files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\u1\;CMake Files\u1\ej_1\;CMake Files\u1\ej_4\;CMake Files\u1\ej_7\;CMake Files\u1\ej_8\;CMake Files\u1\ej_10\;CMake Files\u1\ej_12\;CMake Files\u1\ej_15\;CMake Files\u2\;CMake Files\u2\ej1\;CMake Files\u2\ej2\;CMake Files\u2\ej4\;CMake Files\u2\ej5\;CMake Files\u2\ej8\;CMake Files\u2\ej9\;CMake Files\u2\ej12\;CMake Files\u3\;CMake Files\u3\ej0\;CMake Files\u3\ej00\;CMake Files\u3\ej000\;CMake Files\u3\ej1\;CMake Files\u3\ej2\;CMake Files\u3\ej6\;CMake Files\u3\ej8\;CMake Files\u3\ej8b\;CMake Files\u3\ej9\;CMake Files\u3\ej10\;CMake Files\u3\ej7\;CMake Files\Parcial1\;CMake Files\Parcial1\Ejercicio1\;CMake Files\Parcial1\Ejercicio2\;CMake Files\EjerciciosRepasoParcial1\;CMake Files\EjerciciosRepasoParcial1\Ej1\;CMake Files\EjerciciosRepasoParcial1\Ej4\;CMake Files\EjerciciosRepasoParcial1\EjReloj\;CMake Files\ej_1_1\;CMake Files\ej_template\;CMake Files\ej_template_with_lib\;CMake Files\ej_template_with_lib_files\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug"/>
@@ -1137,6 +1137,94 @@
 					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u3/ej7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ucc_2022_Parcial_1_Ejercicio_1">
+				<Option output="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/ucc_2022_Parcial_1_Ejercicio_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/Makefile&quot;  VERBOSE=1 ucc_2022_Parcial_1_Ejercicio_1"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ucc_2022_Parcial_1_Ejercicio_1/fast">
+				<Option output="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/ucc_2022_Parcial_1_Ejercicio_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/Makefile&quot;  VERBOSE=1 ucc_2022_Parcial_1_Ejercicio_1/fast"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ucc_2022_Parcial_1_Ejercicio_2">
+				<Option output="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/ucc_2022_Parcial_1_Ejercicio_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/Makefile&quot;  VERBOSE=1 ucc_2022_Parcial_1_Ejercicio_2"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ucc_2022_Parcial_1_Ejercicio_2/fast">
+				<Option output="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/ucc_2022_Parcial_1_Ejercicio_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/Makefile&quot;  VERBOSE=1 ucc_2022_Parcial_1_Ejercicio_2/fast"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2021.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ucc_2022_EjerciciosRepasoParcial1_Ej_1">
 				<Option output="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/EjerciciosRepasoParcial1/Ej1/ucc_2022_EjerciciosRepasoParcial1_Ej_1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/EjerciciosRepasoParcial1/Ej1"/>
@@ -1503,6 +1591,25 @@
 			<Option target="ucc_2022_EjerciciosRepasoParcial1_Ej_1"/>
 			<Option target="ucc_2022_EjerciciosRepasoParcial1_Ej_Reloj"/>
 		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/Ejercicio1/Punto3D.cpp">
+			<Option target="ucc_2022_Parcial_1_Ejercicio_1"/>
+		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/Ejercicio1/Punto3D.h">
+			<Option target="ucc_2022_Parcial_1_Ejercicio_1"/>
+		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/Ejercicio1/main.cpp">
+			<Option target="ucc_2022_Parcial_1_Ejercicio_1"/>
+			<Option target="ucc_2022_ej_1_1"/>
+		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/Ejercicio2/TanqueDeAgua.cpp">
+			<Option target="ucc_2022_Parcial_1_Ejercicio_2"/>
+		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/Ejercicio2/TanqueDeAgua.h">
+			<Option target="ucc_2022_Parcial_1_Ejercicio_2"/>
+		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/Ejercicio2/main.cpp">
+			<Option target="ucc_2022_Parcial_1_Ejercicio_2"/>
+		</Unit>
 		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/ej_1_1/lib.cpp">
 			<Option target="ucc_2022_ej_1_1"/>
 		</Unit>
@@ -1769,6 +1876,15 @@
 		</Unit>
 		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/u3/ej7/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\u3\ej7\"/>
+		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parcial1\"/>
+		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/Ejercicio1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parcial1\Ejercicio1\"/>
+		</Unit>
+		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/Parcial1/Ejercicio2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parcial1\Ejercicio2\"/>
 		</Unit>
 		<Unit filename="C:/Users/mbarb/Escritorio/Programacion-2/EjerciciosRepasoParcial1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\EjerciciosRepasoParcial1\"/>

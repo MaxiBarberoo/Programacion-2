@@ -177,6 +177,30 @@ __/EjerciciosRepasoParcial1/Ej1/main.cpp.s:
 	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/EjerciciosRepasoParcial1/Ej1/main.cpp.s
 .PHONY : __/EjerciciosRepasoParcial1/Ej1/main.cpp.s
 
+__/Parcial1/Ejercicio1/main.obj: __/Parcial1/Ejercicio1/main.cpp.obj
+.PHONY : __/Parcial1/Ejercicio1/main.obj
+
+# target to build an object file
+__/Parcial1/Ejercicio1/main.cpp.obj:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/Parcial1/Ejercicio1/main.cpp.obj
+.PHONY : __/Parcial1/Ejercicio1/main.cpp.obj
+
+__/Parcial1/Ejercicio1/main.i: __/Parcial1/Ejercicio1/main.cpp.i
+.PHONY : __/Parcial1/Ejercicio1/main.i
+
+# target to preprocess a source file
+__/Parcial1/Ejercicio1/main.cpp.i:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/Parcial1/Ejercicio1/main.cpp.i
+.PHONY : __/Parcial1/Ejercicio1/main.cpp.i
+
+__/Parcial1/Ejercicio1/main.s: __/Parcial1/Ejercicio1/main.cpp.s
+.PHONY : __/Parcial1/Ejercicio1/main.s
+
+# target to generate assembly for a file
+__/Parcial1/Ejercicio1/main.cpp.s:
+	cd /d C:\Users\mbarb\Escritorio\Programacion-2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ej_1_1\CMakeFiles\ucc_2022_ej_1_1.dir\build.make ej_1_1/CMakeFiles/ucc_2022_ej_1_1.dir/__/Parcial1/Ejercicio1/main.cpp.s
+.PHONY : __/Parcial1/Ejercicio1/main.cpp.s
+
 lib.obj: lib.cpp.obj
 .PHONY : lib.obj
 
@@ -240,6 +264,9 @@ help:
 	@echo ... __/EjerciciosRepasoParcial1/Ej1/main.obj
 	@echo ... __/EjerciciosRepasoParcial1/Ej1/main.i
 	@echo ... __/EjerciciosRepasoParcial1/Ej1/main.s
+	@echo ... __/Parcial1/Ejercicio1/main.obj
+	@echo ... __/Parcial1/Ejercicio1/main.i
+	@echo ... __/Parcial1/Ejercicio1/main.s
 	@echo ... lib.obj
 	@echo ... lib.i
 	@echo ... lib.s

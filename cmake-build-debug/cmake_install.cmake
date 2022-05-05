@@ -54,6 +54,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/EjerciciosRepasoParcial1/cmake_install.cmake")
 endif()
 

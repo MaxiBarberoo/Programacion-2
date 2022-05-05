@@ -16,7 +16,7 @@ public:
     void set_hora(Hora hora);
     void mostrarHora();
     void set_temperatura(Temperatura temperatura);
-    void mostrarTemperatura(char unidad_de_temperatuira);
+    void mostrarTemperatura(char unidad_de_temperatura);
 
     void set_alarma(Hora hora, unsigned int duracion = 20);
     bool esta_activa_la_alarma();

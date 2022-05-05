@@ -81,6 +81,14 @@ C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u3/ej10/CMakeFiles/re
 C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u3/ej7/CMakeFiles/ucc_2022_u3_ej_7.dir
 C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u3/ej7/CMakeFiles/edit_cache.dir
 C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/u3/ej7/CMakeFiles/rebuild_cache.dir
+C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/CMakeFiles/edit_cache.dir
+C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/CMakeFiles/rebuild_cache.dir
+C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/CMakeFiles/ucc_2022_Parcial_1_Ejercicio_1.dir
+C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/CMakeFiles/edit_cache.dir
+C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio1/CMakeFiles/rebuild_cache.dir
+C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/CMakeFiles/ucc_2022_Parcial_1_Ejercicio_2.dir
+C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/CMakeFiles/edit_cache.dir
+C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/Parcial1/Ejercicio2/CMakeFiles/rebuild_cache.dir
 C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/EjerciciosRepasoParcial1/CMakeFiles/edit_cache.dir
 C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/EjerciciosRepasoParcial1/CMakeFiles/rebuild_cache.dir
 C:/Users/mbarb/Escritorio/Programacion-2/cmake-build-debug/EjerciciosRepasoParcial1/Ej1/CMakeFiles/ucc_2022_EjerciciosRepasoParcial1_Ej_1.dir

@@ -1,0 +1,2 @@
+add_subdirectory(Ejercicio1)
+add_subdirectory(Ejercicio2)
